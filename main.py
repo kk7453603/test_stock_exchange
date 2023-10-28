@@ -31,6 +31,7 @@ class OrderBook:
                     if price:
                         order.price = price
                         break
+
         elif ordertype == "sell":
             for order in self.sell_orders:
                 if order.orderid == orderid:
